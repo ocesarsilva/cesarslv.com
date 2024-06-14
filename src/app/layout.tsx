@@ -49,7 +49,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
           fontSans.variable
         )}
       >
-        <div className="flex min-h-screen flex-col py-8">
+        <div className="flex min-h-screen max-w-2xl flex-col p-6 px-7">
           <Header />
           <main className="flex-1">{children}</main>
         </div>

@@ -7,8 +7,8 @@ import { Button } from "./ui/button"
 
 export function Header() {
   return (
-    <header className="w-full bg-background pt-4">
-      <div className="container flex h-16 max-w-3xl items-center justify-between">
+    <header className="w-full bg-background">
+      <div className="flex h-16 items-center justify-between">
         <h1 className="flex flex-col">
           <span className="font-bold">{siteConfig.name}</span>
           <span>developer</span>

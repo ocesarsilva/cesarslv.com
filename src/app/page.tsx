@@ -1,11 +1,10 @@
 import Link from "next/link"
 
 import { cn } from "@/lib/utils"
-import { buttonVariants } from "@/components/ui/button"
 
 export default function HomePage() {
   return (
-    <div className="prose prose-zinc dark:prose-invert container mt-6 grid max-w-3xl space-y-4">
+    <div className="prose prose-zinc dark:prose-invert mt-6 grid space-y-4">
       <h2 className="text-md font-semibold">about</h2>
       <p>
         I&apos;m Cesar, building things for the web and mobile devices. I like
@@ -18,20 +17,14 @@ export default function HomePage() {
         called{" "}
         <Link
           href="https://convexte.cesarslv.com/"
-          className={cn(
-            buttonVariants({ variant: "link" }),
-            "px-0 font-semibold"
-          )}
+          className={cn("font-semibold underline-offset-4 hover:underline")}
         >
           Convexte
         </Link>
         . I also work as a full stack developer at{" "}
         <Link
-          className={cn(
-            buttonVariants({ variant: "link" }),
-            "px-0 font-semibold"
-          )}
-          href="https://www.vilaapps.com.br/"
+          className={cn("font-semibold underline-offset-4 hover:underline")}
+          href="https://vilaapps.com.br/"
         >
           VilaApps
         </Link>
