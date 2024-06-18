@@ -14,7 +14,7 @@ export function Header() {
           <span>developer</span>
         </h1>
         <nav className="flex items-center space-x-1">
-          <Button variant="ghost" size="icon" className="size-7" asChild>
+          <Button variant="outline" size="icon" asChild>
             <Link
               href={siteConfig.links.githubProfile}
               target="_blank"
