@@ -5,7 +5,7 @@ export const siteConfig = {
   description: "Personal website of Cesar Silva.",
   url: "https://cesarslv.com",
   links: {
-    github: "https://github.com/cesarscf/cesarslv.com",
-    githubProfile: "https://github.com/cesarscf",
+    github: "https://github.com/ocesarsilva/cesarslv.com",
+    githubProfile: "https://github.com/ocesarsilva",
   },
 }
