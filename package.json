@@ -9,9 +9,10 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "typecheck": "contentlayer build && tsc --noEmit",
+    "typecheck": "tsc --noEmit",
     "format:write": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
-    "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache"
+    "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
+    "check": "pnpm lint && pnpm typecheck && pnpm format:check"
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
@@ -30,6 +31,7 @@
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "@tailwindcss/typography": "^0.5.13",
+    "@total-typescript/ts-reset": "^0.5.1",
     "@types/eslint": "^8.56.10",
     "@types/node": "^20.14.10",
     "@types/react": "^18.3.3",
