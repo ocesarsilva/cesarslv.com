@@ -1,6 +1,4 @@
-import Link from "next/link"
-
-import { cn } from "@/lib/utils"
+import { LinkBadge } from "@/components/link-badge"
 
 export default function HomePage() {
   return (
@@ -15,23 +13,13 @@ export default function HomePage() {
       <p>
         I&apos;m currently building an open source lead management platform
         called{" "}
-        <Link
-          href="https://convexte.cesarslv.com/"
-          className={cn(
-            "text-md font-semibold underline-offset-4 hover:underline"
-          )}
-        >
+        <LinkBadge aria-label="Convexte" href="https://convexte.cesarslv.com/">
           Convexte
-        </Link>
+        </LinkBadge>
         . I also work as a full stack developer at{" "}
-        <Link
-          className={cn(
-            "text-md font-semibold underline-offset-4 hover:underline"
-          )}
-          href="https://vilaapps.com.br/"
-        >
-          VilaApps
-        </Link>
+        <LinkBadge aria-label="Convexte" href="https://vilaapps.com.br/">
+          Vila Apps
+        </LinkBadge>
         .
       </p>
     </div>
