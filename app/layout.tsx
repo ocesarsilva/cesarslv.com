@@ -2,17 +2,13 @@ import "@/styles/globals.css"
 
 import { type PropsWithChildren } from "react"
 import type { Metadata } from "next"
-import { Inter as FontSans } from "next/font/google"
 import { env } from "@/env"
+import { GeistMono } from "geist/font/mono"
+import { GeistSans } from "geist/font/sans"
 
 import { siteConfig } from "@/lib/config"
 import { cn } from "@/lib/utils"
 import { Header } from "@/components/header"
-
-const fontSans = FontSans({
-  subsets: ["latin"],
-  variable: "--font-sans",
-})
 
 export const metadata: Metadata = {
   metadataBase: new URL(env.NEXT_PUBLIC_APP_URL),
@@ -45,11 +41,12 @@ export default function RootLayout({ children }: PropsWithChildren) {
       <head />
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable
+          "dark min-h-screen bg-background font-sans antialiased",
+          GeistSans.variable,
+          GeistMono.variable
         )}
       >
-        <div className="container flex min-h-screen max-w-2xl flex-col p-6 px-7">
+        <div className="container flex min-h-screen max-w-xl flex-col p-6 px-7">
           <Header />
           <main className="flex-1">{children}</main>
         </div>
