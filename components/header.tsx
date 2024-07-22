@@ -18,14 +18,14 @@ export function Header() {
           <h1 className="flex flex-col">
             <span className="font-bold">{siteConfig.name}</span>
             <div className="flex items-center">
-            <div className="absolute flex size-4">
-              <span className="absolute top-[4.5px] size-2 animate-ping rounded-full bg-green-500 opacity-75"></span>
-              <span className="relative top-[4.5px] size-2 rounded-full bg-green-500"></span>
+              <div className="absolute flex size-4">
+                <span className="absolute top-[4.5px] size-2 animate-ping rounded-full bg-green-500 opacity-75"></span>
+                <span className="relative top-[4.5px] size-2 rounded-full bg-green-500"></span>
+              </div>
+              <span className="prose prose-neutral ml-4 text-[14px] dark:prose-invert">
+                available for work
+              </span>
             </div>
-            <span className="prose prose-neutral ml-4 dark:prose-invert text-[14px]">
-              available for work
-            </span>
-          </div>
           </h1>
         </div>
         <nav className="flex items-center space-x-1">
