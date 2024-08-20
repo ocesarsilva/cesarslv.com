@@ -11,12 +11,13 @@ export default function HomePage() {
       </p>
       <h2 className="pt-6 font-semibold">now</h2>
       <p>
-        I&apos;m currently building an open source lead management platform
+        {/* I&apos;m currently building an open source lead management platform
         called{" "}
         <LinkBadge aria-label="Convexte" href="https://convexte.cesarslv.com/">
           Convexte
         </LinkBadge>
-        . I also work as a full stack developer at{" "}
+        .    */}
+        I&apos;m currently work as a full stack developer at{" "}
         <LinkBadge aria-label="Convexte" href="https://vilaapps.com.br/">
           Vila Apps
         </LinkBadge>
