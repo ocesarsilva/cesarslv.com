@@ -11,10 +11,10 @@ export function Header() {
     <header className="w-full bg-background">
       <div className="flex h-16 items-center justify-between">
         <div className="flex items-center justify-center space-x-4">
-          <Avatar>
+          {/* <Avatar>
             <AvatarImage src="https://github.com/ocesarsilva.png" />
             <AvatarFallback>CS</AvatarFallback>
-          </Avatar>
+          </Avatar> */}
           <h1 className="flex flex-col">
             <span className="font-bold">{siteConfig.name}</span>
             <div className="flex items-center">
