@@ -1,14 +1,14 @@
-import "@/styles/globals.css"
+import "@/styles/globals.css";
 
-import { type PropsWithChildren } from "react"
-import type { Metadata } from "next"
-import { env } from "@/env"
-import { GeistMono } from "geist/font/mono"
-import { GeistSans } from "geist/font/sans"
+import { env } from "@/env";
+import { GeistMono } from "geist/font/mono";
+import { GeistSans } from "geist/font/sans";
+import type { Metadata } from "next";
+import type { PropsWithChildren } from "react";
 
-import { siteConfig } from "@/lib/config"
-import { cn } from "@/lib/utils"
-import { Header } from "@/components/header"
+import { Header } from "@/components/header";
+import { siteConfig } from "@/lib/config";
+import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   metadataBase: new URL(env.NEXT_PUBLIC_APP_URL),
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     siteName: siteConfig.name,
   },
-}
+};
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
@@ -43,7 +43,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
         className={cn(
           "dark min-h-screen bg-background font-sans antialiased",
           GeistSans.variable,
-          GeistMono.variable
+          GeistMono.variable,
         )}
       >
         <div className="container flex min-h-screen max-w-xl flex-col p-6 px-7">
@@ -52,5 +52,5 @@ export default function RootLayout({ children }: PropsWithChildren) {
         </div>
       </body>
     </html>
-  )
+  );
 }

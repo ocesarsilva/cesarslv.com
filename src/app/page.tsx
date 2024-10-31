@@ -1,4 +1,4 @@
-import { LinkBadge } from "@/components/link-badge"
+import { LinkBadge } from "@/components/link-badge";
 
 export default function HomePage() {
   return (
@@ -24,5 +24,5 @@ export default function HomePage() {
         .
       </p>
     </div>
-  )
+  );
 }

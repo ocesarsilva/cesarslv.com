@@ -1,10 +1,10 @@
-import Link from "next/link"
+import Link from "next/link";
 
-import { siteConfig } from "@/lib/config"
+import { siteConfig } from "@/lib/config";
 
-import { Icons } from "./icons"
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
-import { Button } from "./ui/button"
+import { Icons } from "./icons";
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import { Button } from "./ui/button";
 
 export function Header() {
   return (
@@ -19,10 +19,10 @@ export function Header() {
             <span className="font-bold">{siteConfig.name}</span>
             <div className="flex items-center">
               <div className="absolute flex size-4">
-                <span className="absolute top-[4.5px] size-2 animate-ping rounded-full bg-green-500 opacity-75"></span>
-                <span className="relative top-[4.5px] size-2 rounded-full bg-green-500"></span>
+                <span className="absolute top-[4.5px] size-2 animate-ping rounded-full bg-green-500 opacity-75" />
+                <span className="relative top-[4.5px] size-2 rounded-full bg-green-500" />
               </div>
-              <span className="prose prose-neutral ml-4 text-[14px] dark:prose-invert">
+              <span className="prose prose-neutral dark:prose-invert ml-4 text-[14px]">
                 available for work
               </span>
             </div>
@@ -42,5 +42,5 @@ export function Header() {
         </nav>
       </div>
     </header>
-  )
+  );
 }
