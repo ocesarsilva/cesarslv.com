@@ -4,6 +4,7 @@ import { env } from "@/env";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
+import Script from "next/script";
 import type { PropsWithChildren } from "react";
 
 import { Header } from "@/components/header";
@@ -38,7 +39,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <head>
+        <Script
+          src="https://cdn.seline.so/seline.js"
+          data-token="db550307002b6d5"
+          strategy="afterInteractive"
+        />
+      </head>
       <body
         className={cn(
           "dark min-h-screen bg-background font-sans antialiased",
