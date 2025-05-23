@@ -19,7 +19,7 @@ importers:
         version: 1.2.3(@types/react@19.1.5)(react@19.1.0)
       '@t3-oss/env-nextjs':
         specifier: ^0.11.1
-        version: 0.11.1(typescript@5.8.3)(zod@3.25.23)
+        version: 0.11.1(typescript@5.8.3)(zod@3.25.28)
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.1
@@ -46,7 +46,7 @@ importers:
         version: 1.0.7(tailwindcss@3.4.17)
       zod:
         specifier: ^3.23.8
-        version: 3.25.23
+        version: 3.25.28
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.4
@@ -993,8 +993,8 @@ packages:
     engines: {node: '>= 14'}
     hasBin: true
 
-  zod@3.25.23:
-    resolution: {integrity: sha512-Od2bdMosahjSrSgJtakrwjMDb1zM1A3VIHCPGveZt/3/wlrTWBya2lmEh2OYe4OIu8mPTmmr0gnLHIWQXdtWBg==}
+  zod@3.25.28:
+    resolution: {integrity: sha512-/nt/67WYKnr5by3YS7LroZJbtcCBurDKKPBPWWzaxvVCGuG/NOsiKkrjoOhI8mJ+SQUXEbUzeB3S+6XDUEEj7Q==}
 
 snapshots:
 
@@ -1252,16 +1252,16 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@t3-oss/env-core@0.11.1(typescript@5.8.3)(zod@3.25.23)':
+  '@t3-oss/env-core@0.11.1(typescript@5.8.3)(zod@3.25.28)':
     dependencies:
-      zod: 3.25.23
+      zod: 3.25.28
     optionalDependencies:
       typescript: 5.8.3
 
-  '@t3-oss/env-nextjs@0.11.1(typescript@5.8.3)(zod@3.25.23)':
+  '@t3-oss/env-nextjs@0.11.1(typescript@5.8.3)(zod@3.25.28)':
     dependencies:
-      '@t3-oss/env-core': 0.11.1(typescript@5.8.3)(zod@3.25.23)
-      zod: 3.25.23
+      '@t3-oss/env-core': 0.11.1(typescript@5.8.3)(zod@3.25.28)
+      zod: 3.25.28
     optionalDependencies:
       typescript: 5.8.3
 
@@ -1805,4 +1805,4 @@ snapshots:
 
   yaml@2.6.1: {}
 
-  zod@3.25.23: {}
+  zod@3.25.28: {}
