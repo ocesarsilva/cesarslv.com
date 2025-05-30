@@ -19,7 +19,7 @@ importers:
         version: 1.2.3(@types/react@19.1.6)(react@19.1.0)
       '@t3-oss/env-nextjs':
         specifier: ^0.11.1
-        version: 0.11.1(typescript@5.8.3)(zod@3.25.39)
+        version: 0.11.1(typescript@5.8.3)(zod@3.25.41)
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.1
@@ -46,7 +46,7 @@ importers:
         version: 1.0.7(tailwindcss@3.4.17)
       zod:
         specifier: ^3.23.8
-        version: 3.25.39
+        version: 3.25.41
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.4
@@ -62,7 +62,7 @@ importers:
         version: 9.6.1
       '@types/node':
         specifier: ^22.8.5
-        version: 22.15.26
+        version: 22.15.27
       '@types/react':
         specifier: ^19.0.0
         version: 19.1.6
@@ -472,8 +472,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@22.15.26':
-    resolution: {integrity: sha512-lgISkNrqdQ5DAzjBhnDNGKDuXDNo7/1V4FhNzsKREhWLZTOELQAptuAnJMzHtUl1qyEBBy9lNBKQ9WjyiSloTw==}
+  '@types/node@22.15.27':
+    resolution: {integrity: sha512-5fF+eu5mwihV2BeVtX5vijhdaZOfkQTATrePEaXTcKqI16LhJ7gi2/Vhd9OZM0UojcdmiOCVg5rrax+i1MdoQQ==}
 
   '@types/react-dom@19.1.5':
     resolution: {integrity: sha512-CMCjrWucUBZvohgZxkjd6S9h0nZxXjzus6yDfUb+xLxYM7VvjKNH1tQrE9GWLql1XoOP4/Ds3bwFqShHUYraGg==}
@@ -999,8 +999,8 @@ packages:
     engines: {node: '>= 14'}
     hasBin: true
 
-  zod@3.25.39:
-    resolution: {integrity: sha512-yrva2T2x4R+FMFTPBVD/YPS7ct8njqjnV93zNx/MlwqLAxcnxwRGbXWyWF63/nErl3rdRd8KARObon7BiWzabQ==}
+  zod@3.25.41:
+    resolution: {integrity: sha512-8+sDJTGtCYIDBhdqDygp0ffj8kzziRKqAJPhpYObbElJ+3TRe/mnlnwH+/OMa3kKhueS4Drm5UMW00/u1p07zA==}
 
 snapshots:
 
@@ -1264,16 +1264,16 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@t3-oss/env-core@0.11.1(typescript@5.8.3)(zod@3.25.39)':
+  '@t3-oss/env-core@0.11.1(typescript@5.8.3)(zod@3.25.41)':
     dependencies:
-      zod: 3.25.39
+      zod: 3.25.41
     optionalDependencies:
       typescript: 5.8.3
 
-  '@t3-oss/env-nextjs@0.11.1(typescript@5.8.3)(zod@3.25.39)':
+  '@t3-oss/env-nextjs@0.11.1(typescript@5.8.3)(zod@3.25.41)':
     dependencies:
-      '@t3-oss/env-core': 0.11.1(typescript@5.8.3)(zod@3.25.39)
-      zod: 3.25.39
+      '@t3-oss/env-core': 0.11.1(typescript@5.8.3)(zod@3.25.41)
+      zod: 3.25.41
     optionalDependencies:
       typescript: 5.8.3
 
@@ -1296,7 +1296,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@22.15.26':
+  '@types/node@22.15.27':
     dependencies:
       undici-types: 6.21.0
 
@@ -1817,4 +1817,4 @@ snapshots:
 
   yaml@2.6.1: {}
 
-  zod@3.25.39: {}
+  zod@3.25.41: {}
